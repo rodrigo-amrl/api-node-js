@@ -10,6 +10,7 @@ router.route('/')
     .get(verifyRoles(ROLES_LIST.Admin, ROLES_LIST.Editor), employeeController.getAllEmployees)
     .post(verifyRoles(ROLES_LIST.Admin, ROLES_LIST.Editor), employeeController.createNewEmployee)
     .put(verifyRoles(ROLES_LIST.Admin, ROLES_LIST.Editor), employeeController.updateEmployee)
+    .delete(verifyRoles(ROLES_LIST.Admin, ROLES_LIST.Editor), employeeController.deleteEmployee)
 router.route("/:id")
     .get(employeeController.getEmployee)
 module.exports = router;
