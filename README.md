@@ -21,18 +21,16 @@
 * `GET` : Get all employees
 * `POST` : Create new employee
    + Parameters 
-    + firstname (string, required) 
-    + lastname (string, required)
+      + firstname (string, required) 
+      + lastname (string, required)
 * `PUT` : Update a project
    + Parameters
-    + id (string,required)  
-    + firstname (string, required) 
-    + lastname (string, required)
+      + id (string,required)  
+      + firstname (string, required) 
+      + lastname (string, required)
 * `DELETE` : Delete employee
  + Parameters
     + id (string,required)
 
-* #### /register
-* `GET` : Get all projects
-* `POST` : Create a new project
+
 
