@@ -2,6 +2,8 @@
 
 <p align="center">🚀This application is a example the api developed with Node.js, Express and MongoDB. </p>
 
+First change the name of the .env-example file to .env and include the mongoDB connection URI. In the project directory, you can run:
+### `npm run dev`
 
 ## API
 
